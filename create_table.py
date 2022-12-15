@@ -11,7 +11,7 @@ try:
         cursor.execute(
         """
             CREATE TABLE binlist (
-                    bank_bin integer NOT NULL,
+                    bank_bin integer PRIMARY KEY NOT NULL,
                     bank_name text NOT NULL,
                     bank_country text NOT NULL
                     );
